@@ -21,19 +21,29 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/share/15obCt1j1M/?mibextid=wwXIfr"
               target="_blank"
+              className="anchorColor"
             >
               <FaFacebook />
             </a>
             <a
               href="https://www.instagram.com/excellent_public_school_itarsi?igsh=MXh3MmIxODA3enh0Yw=="
               target="_blank"
+              className="anchorColor"
             >
               <FaInstagram />
             </a>
-            <a href="https://wa.me/919827279238" target="_blank">
+            <a
+              href="https://wa.me/919827279238"
+              target="_blank"
+              className="anchorColor"
+            >
               <FaWhatsapp />
             </a>
-            <a href="https://maps.app.goo.gl/W4UYZECM4mKuSrmW8" target="_blank">
+            <a
+              href="https://maps.app.goo.gl/W4UYZECM4mKuSrmW8"
+              target="_blank"
+              className="anchorColor"
+            >
               <SiGooglemaps />
             </a>
           </div>

@@ -10,9 +10,7 @@
 body, html{
   overflow-x: hidden;
 }
-a{
-  color: var(--text-color);
-}
+
 
 .navbar {
   display: flex;
@@ -105,7 +103,7 @@ width: 4rem;
     width: 3rem;
     }
     .site-name{
-      font-size: 1.2rem;
+      font-size: 0.9rem;
     }
 }
 .about{
@@ -113,7 +111,7 @@ width: 4rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -153,7 +151,7 @@ width: 4rem;
 }
 .about-heading { 
   color: var(--text-color);
-  font-size: 1.55rem;
+  font-size: 1.32rem;
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
@@ -311,7 +309,7 @@ width: 4rem;
 
   @media screen and (max-width : 1080px) {
     .AchieveHeading {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
      }
       .achievements-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -360,18 +358,7 @@ width: 4rem;
         }
     }
     
-  /* .feedbackRight {
-    animation: feedbackRight 1s ease-out forwards;
-  }
-  @keyframes feedbackRight {
-    0% {
-      transform: translateX(100vw);
-    }
-    100% {
-      transform: translateX(0);
 
-    }
-  }  */
   .parent-image {
     width: 6rem;
     height: 5rem;
@@ -398,7 +385,7 @@ width: 4rem;
  }
  @media screen and (max-width : 1080px ) { 
     .parentfeedback{ 
-      width: 97%;
+      width: 100%;
       margin: 0 auto; 
     } 
     .parent-card  {    
@@ -408,7 +395,7 @@ width: 4rem;
       font-size: 7rem;
     }
     .feedback-heading {    
-    font-size: 1.5rem;  
+    font-size: 1.36rem;  
     } 
   } 
   .facility-section {
@@ -562,4 +549,7 @@ width: 4rem;
     height: 3.6rem;
     width: 3.6rem;
   }
+}
+.anchorColor {
+  color: var(--text-color);
 }
